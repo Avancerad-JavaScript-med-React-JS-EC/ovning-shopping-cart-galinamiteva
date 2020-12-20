@@ -1,0 +1,99 @@
+* {
+ padding: 0;
+ margin:0;
+ box-sizing: 0;
+}
+
+body {
+    background-color: rgb(31, 16, 68);
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: .75rem .5rem; 
+}
+
+.item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px 20px;
+}
+
+.logo{
+    height: 100px;
+    background-color: whitesmoke;
+}
+.book{
+    background-color: whitesmoke;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    min-height: 13rem;
+} 
+
+ul{
+    display:flex;
+    align-items: center;
+    width: fit-content;
+    list-style: none;
+}
+
+li:nth-child(1){
+    color: violet;
+    margin-right: 0.6rem;
+}
+li:nth-child(2){
+    background-color:whitesmoke;
+    border-radius: 50%;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.book h2{
+    margin-top:.5rem;
+    color:#000000;
+    text-align: center;
+}
+.book h4{
+    margin:0;
+    font-size: .9rem;
+    color: #000000;
+    text-align: center;
+}
+
+.book p{
+    font-size: 1rem;
+    color:#000000;
+    line-height: 1rem;
+    margin: 1rem 0;
+}
+
+.book button{
+    background-color: rgb(41, 190, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    margin: 0;
+    border:1px solid rgb(52, 124, 126);
+    border-radius: 5px;
+}

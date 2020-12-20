@@ -1,6 +1,8 @@
 # Övning
 
-I denna övning ska du göra en React-applikationen enligt designen som du kan på bilden nedanför. Denna sida kommer i denna övning vara statisk d.v.s. du kan hårdkoda all information och knapparna etc behöver inte göra något. Vi kommer återvända till denna övning och fixa det senare.
+I denna övning ska du göra en React-applikationen enligt designen som du kan på bilden nedanför. 
+Denna sida kommer i denna övning vara statisk d.v.s. du kan hårdkoda all information och knapparna etc behöver inte göra något.
+ Vi kommer återvända till denna övning och fixa det senare.
 
 Följande komponenter bör finnas med:
 * App
@@ -28,4 +30,5 @@ Efter det kör:
 npm run serve
 ````
 
-Det kommer köra igång en utvecklingserver som kollar efter förändringar du kör i dina HTML, CSS och JS filer. Vi kommer diskutera detta lite längre fram men nu fokuserar vi enbart på koden till och börja med.
+Det kommer köra igång en utvecklingserver som kollar efter förändringar du kör i dina HTML, CSS och JS filer.
+ Vi kommer diskutera detta lite längre fram men nu fokuserar vi enbart på koden till och börja med.
